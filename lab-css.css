@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+#fondo{
+    background-image: url(icons/triangulos-de-colores_7680x4320_xtrafondos.com.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+#contenedor-login{
+    background-color: white;
+    border-radius: 10px;
+    height: 70%;
+    padding: 30px 50px;
+
+}
+#Titulo{
+    text-align: center;
+}
+form{
+    gap: .5rem;
+    display:flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.Redes-Sociales{
+    height: 30px;
+}
+#Mitad{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Final{
+    display:flex ;
+    flex-direction: column;
+    align-items:center ;
+}
+input{
+    border: none;
+    outline: none;
+}
+#Boton-login{
+    border-radius: 10px;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    border:none;
+    background-image: url(icons/triangulos-de-colores_7680x4320_xtrafondos.com.jpg);
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+}
+.Inicial{
+    font-size: .8rem ;
+}
+.Forgot{
+    font-size: .6rem;
+    text-align: right;
+}
+.Of{
+    font-size: .7rem;
+}
+.Icon1 {
+    width:15px;
+}
+.Input-icon{
+    border-bottom: 1px solid black;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
