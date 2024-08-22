@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+#Background{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Login2/Images/peakpx.jpg);
+    background-size: cover;
+}
+#LoginContainer{
+    height: 80%;
+    width: 70%;
+    background-color: white;
+    display: flex;
+
+
+}
+#Left{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+#Right{
+    width: 60%;
+    height: 100%;
+    background-image: url(/Login2/Images/street-night_png\ by\ Roman\ Klčo.jpg);
+    background-size: cover;
+}
+#Tittle {
+    font-size: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    gap: .5rem;
+}
+.Birrete {
+    height: 40px;
+}
+#Birrete2{
+    height: 60px;
+}
+#TitleOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: small;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 1rem;
+}
+#InnerForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    border: none;
+    
+}
+#ButtonStyle {
+    background-color: rgba(179, 207, 228, 0.94);
+    color: white;
+    padding: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 17px;
+    border: none;
+}
+#Forget {
+    font-size: small;
+}
+.PositionObjects {
+    height: 70px;
+    position: absolute;
+}
+#Hombre {
+    left: 160px;
+    top: 550px;
+}
+#Hojas{
+    left: 25px;
+    top: 550px; ;
+}
+.Icon1 {
+    width:15px;
+}
+.Input-icon{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 190, 190);
+}
